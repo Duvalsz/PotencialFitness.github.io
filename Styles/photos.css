@@ -1,0 +1,83 @@
+.photos {
+    margin-top: 4rem;
+}
+
+.photos__photos-container {
+    margin-top: 3rem;
+}
+
+.photos__image {
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 500px) {
+    .photos__photos-container {
+        column-count: 2;
+        column-gap: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .photos {
+        margin-top: 8rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .photos {
+        margin-top: 10rem;
+    }
+    .photos__photos-container {
+        column-count: 3;
+    }
+}
+/* Estilização do logotipo no header */
+.logo-img {
+    width: 10rem; /* Define o tamanho da largura da logo */
+    height: auto; /* Mantém a proporção da imagem */
+    border: 2px solid #000; /* Adiciona uma borda preta de 2px */
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    padding: 5px; /* Espaçamento entre a imagem e a borda */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+    display: block;
+}
+
+/* No desktop, podemos ajustar o tamanho */
+@media (min-width: 900px) {
+    .logo-img {
+        width: 12rem; /* Aumenta o tamanho no desktop */
+    }
+}
+
+/* Container para alinhar logo e texto */
+.logo-container {
+    display: flex;
+    align-items: center; /* Alinha a logo e o texto verticalmente no centro */
+}
+
+/* Estilização do logotipo no header */
+.logo-img {
+    width: 10rem; /* Tamanho do logo */
+    height: auto;
+    display: block;
+    margin-right: 1rem; /* Espaço entre o logo e o texto */
+}
+
+/* Estilização do texto ao lado do logo */
+.logo-text {
+    font-size: 2rem; /* Tamanho da fonte */
+    font-weight: 700; /* Negrito */
+    color: #fff; /* Cor branca */
+}
+
+/* No desktop, ajusta o tamanho */
+@media (min-width: 900px) {
+    .logo-img {
+        width: 12rem; /* Tamanho maior no desktop */
+    }
+
+    .logo-text {
+        font-size: 2.4rem; /* Tamanho maior para o texto no desktop */
+    }
+}

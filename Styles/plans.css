@@ -1,0 +1,23 @@
+.plans-table, .schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.plans-table th, .plans-table td, .schedule-table th, .schedule-table td {
+    border: 1px solid ;
+    color: rgb(76, 108, 196);
+    padding: 8px;
+    text-align: center;
+}
+
+.plans-table th, .schedule-table th {
+    background-color: var(--primary-color);
+    color: rgb(76, 108, 196);
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
